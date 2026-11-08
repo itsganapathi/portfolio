@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/tech",
+      "destination": "https://ganapathi-tech.vercel.app/tech"
+    },
+    {
+      "source": "/tech/:path*",
+      "destination": "https://ganapathi-tech.vercel.app/tech/:path*"
+    }
+  ]
+}
