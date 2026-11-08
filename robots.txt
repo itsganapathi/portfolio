@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Private account and management areas
+Disallow: /tech/admin
+Disallow: /tech/dashboard
+Disallow: /tech/profile
+Disallow: /tech/requests
+Disallow: /tech/login
+Disallow: /tech/register
+Disallow: /tech/forgot-password
+Disallow: /tech/reset-password
+Disallow: /tech/api/
+
+Sitemap: https://itsganapathi.in/sitemap.xml
